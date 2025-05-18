@@ -1,0 +1,23 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# Environment variables and secrets
+.env
+
+# SQLite DBs or temporary local databases
+db.sqlite3
+
+# Django migrations (optional if using CI/CD to auto-migrate)
+**/migrations/*.pyc
+**/migrations/__pycache__/
+**/migrations/*.py
+
+# Virtual environments (if inside project)
+venv/
+.env/
+ENV/
+
+# OS files
+.DS_Store
+Thumbs.db
